@@ -1,3 +1,3 @@
 # Leaf Map
 
-Location-based sonification project
+Leaf species visualization
