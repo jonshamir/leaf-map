@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600');
+
+$echo-color: #172438;
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: #adcdff;
+  background-color: $echo-color;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  -webkit-user-select: none;
+  padding-top: 10px;
+}
+
+h1,
+h2 {
+  margin: 0.2em auto;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 0.7em;
+}
