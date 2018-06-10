@@ -4,7 +4,7 @@
   "description": "Leaf species visualization",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --no-inline",
+    "start": "webpack-dev-server --hot --inline",
     "build": "webpack -p"
   },
   "repository": {
@@ -33,7 +33,10 @@
     "webpack-dev-server": "^2.2.1"
   },
   "dependencies": {
+    "d3": "^5.4.0",
+    "d3-tip": "^0.9.1",
+    "d3-zoom": "^1.7.1",
     "normalize.css": "^5.0.0",
-    "npm": "^5.8.0"
+    "npm": "^6.1.0"
   }
 }

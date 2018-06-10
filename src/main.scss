@@ -1,27 +1,120 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700');
 
-$echo-color: #172438;
+$bg-color: #f7f3ed;
 
 body {
-  font-family: 'Fira Sans', sans-serif;
-  color: #adcdff;
-  background-color: $echo-color;
+  font-family: 'Alegreya', serif;
   text-align: center;
+  background-color: $bg-color;
   height: 100%;
   width: 100%;
   -webkit-user-select: none;
-  padding-top: 10px;
 }
 
-h1,
-h2 {
-  margin: 0.2em auto;
-  font-weight: 800;
+header {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background-color: rgba($bg-color, 0.9);
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: 400;
+.sidebar {
+  position: absolute;
+  height: 100%;
+  width: 400px;
+  background-color: rgba(#fff, 0.95);
+  z-index: 10;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: grab;
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+#searchbar {
+  width: 80%;
+  font-family: 'Alegreya', serif;
+  border: none;
+  padding: 0.3em 0.6em;
+  border-bottom: 1px solid #000;
+}
+
+.leaf {
+  cursor: pointer;
+  image {
+    pointer-events: none;
+  }
+}
+
+.leaf circle {
+  opacity: 0;
+  transition: all 300ms ease;
+  transform: scale(0.8);
+}
+
+.leaf:hover circle {
+  opacity: 0.15;
+  transform: scale(1);
+}
+
+.sciname {
+  font-style: italic;
+  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+/* tooltip styles */
+$tip-color: rgba(0, 0, 0, 0.75);
+$arrow-size: 0.5em;
+
+@keyframes tooltipIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.d3-tip {
+  padding: 0.5em 0.8em;
+  background: $tip-color;
   color: #fff;
-  margin-top: 0.7em;
+  border-radius: 5px;
+  pointer-events: none;
+  &.animate {
+    animation: tooltipIn 300ms ease;
+  }
+}
+
+.d3-tip:after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -$arrow-size;
+  left: 50%;
+  transform: translateX(-$arrow-size);
+  border-left: $arrow-size solid transparent;
+  border-right: $arrow-size solid transparent;
+  border-top: $arrow-size solid $tip-color;
+  // box-sizing: border-box;
+  // display: inline;
+  // font-size: 10px;
+  // width: 100%;
+  // line-height: 1;
+  // color: rgba(0, 0, 0, 0.8);
+  // position: absolute;
+  // pointer-events: none;
 }
