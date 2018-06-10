@@ -21,10 +21,76 @@ header {
 
 .sidebar {
   position: absolute;
-  height: 100%;
-  width: 400px;
+  top: 20px;
+  left: 20px;
+  // height: 100%;
+  width: 350px;
+
+  h1 {
+    margin-top: 0;
+    font-weight: 500;
+    margin-left: -0.5em;
+  }
+}
+
+.logo {
+  width: 1.6em;
+  vertical-align: middle;
+  margin-bottom: 0.3em;
+  transform: rotate(320deg);
+}
+
+.card {
   background-color: rgba(#fff, 0.95);
   z-index: 10;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+$search-icon-color: #888;
+$search-icon-top: 6px;
+$search-icon-left: 5px;
+
+#search-input {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+    border: none;
+    padding: 0.3em 0.5em 0.5em 1.8em;
+    border-bottom: 2px solid #666;
+    background: transparent;
+    outline: none;
+
+    &::placeholder {
+      color: $search-icon-color;
+    }
+  }
+  &::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid $search-icon-color;
+    border-radius: 100em;
+    position: absolute;
+    left: $search-icon-left;
+    top: $search-icon-top;
+  }
+  &::after {
+    content: '';
+    width: 2px;
+    height: 7px;
+    background-color: $search-icon-color;
+    border-radius: 100em;
+    position: absolute;
+    left: $search-icon-left + 6px;
+    top: $search-icon-top + 13px;
+    transform: rotate(-45deg);
+    transform-origin: 1px -6px;
+  }
 }
 
 #map {
@@ -37,14 +103,6 @@ header {
   &:active {
     cursor: grabbing;
   }
-}
-
-#searchbar {
-  width: 80%;
-  font-family: 'Alegreya', serif;
-  border: none;
-  padding: 0.3em 0.6em;
-  border-bottom: 1px solid #000;
 }
 
 .leaf {

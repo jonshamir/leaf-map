@@ -8,9 +8,20 @@
     <!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
   </head>
   <body>
-    <div class="sidebar">
-        <h1>Leaf Map</h1>
-        <input type="search" id="searchbar" placeholder="Find by name..." />
+    <div class="sidebar card">
+        <h1>
+            <img src="assets/logo.png" class="logo" />
+            Leaf Map
+        </h1>
+        <div id="search-input">
+            <input type="search" placeholder="Find by name..." />
+        </div>
+    </div>
+    <div class="details card">
+        <h2 class="popname">Sugar Maple</h2>
+        <span class="sciname"></span>
+        <p class="description"></p>
+
     </div>
     <div id="map"></div>
     <script type="text/javascript" src="bundle.js"></script>
