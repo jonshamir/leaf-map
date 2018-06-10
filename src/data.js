@@ -81,28 +81,28 @@ export default [
     1.3788330554962158,
     'Betula platyphylla',
     'Asian White Birch',
-    'This native of northern Japan, Korea and Manchuria has white bark with dark markings.  Like other birches it likes moist soil conditions.  With the exception of one cultivar called \ufffd\ufffd\ufffdWhitespire\ufffd\ufffd\ufffd this species is prone to birch borer infestation.'
+    'This native of northern Japan, Korea and Manchuria has white bark with dark markings.  Like other birches it likes moist soil conditions.  With the exception of one cultivar called "Whitespire" this species is prone to birch borer infestation.'
   ],
   [
     -7.888391494750977,
     5.137512683868408,
     'Cedrus atlantica',
     'Atlas Cedar',
-    'Native to Morocco and Algeria, this species is commonly cultivated in the United States for its attractive foliage and form. This cedar can grow up to 35 m tall with a trunk diameter of up to 2 m. Downy, bluish-green needles are arranged spirally on long shoots. George Harrison of the Beatles referenced the Atlas Cedar in his song \ufffd\ufffd\ufffdBeware of Darkness.\ufffd\ufffd\ufffd'
+    'Native to Morocco and Algeria, this species is commonly cultivated in the United States for its attractive foliage and form. This cedar can grow up to 35 m tall with a trunk diameter of up to 2 m. Downy, bluish-green needles are arranged spirally on long shoots. George Harrison of the Beatles referenced the Atlas Cedar in his song "Beware of Darkness."'
   ],
   [
     -7.024847984313965,
     6.219019889831543,
     'Pinus nigra',
     'Austrian Pine',
-    'Native to Europe, this species is naturalized in parts of the United States and Canada where it was planted on the Great Plains in the 1900\ufffd\ufffd\ufffds for beauty and protection from wind and snow. Also called Black Pine or Corsican Pine, it is a fast-growing tree, with large seed crops produced at 2-5 year intervals, its timber is used for fuel and in the manufacture of paper.'
+    'Native to Europe, this species is naturalized in parts of the United States and Canada where it was planted on the Great Plains in the 1900"s for beauty and protection from wind and snow. Also called Black Pine or Corsican Pine, it is a fast-growing tree, with large seed crops produced at 2-5 year intervals, its timber is used for fuel and in the manufacture of paper.'
   ],
   [
     -2.8560822010040283,
     4.023218154907227,
     'Taxodium distichum',
     'Bald Cypress',
-    'This cypress occurs in southern North America, growing 30-45 m tall. The trees have soft, light green needles arranged in two flat rows on either side of the shoot. This species is considered a symbol of the southern swamps and is also called the \ufffd\ufffd\ufffdwood eternal\ufffd\ufffd\ufffd because of its resistance to decay.'
+    'This cypress occurs in southern North America, growing 30-45 m tall. The trees have soft, light green needles arranged in two flat rows on either side of the shoot. This species is considered a symbol of the southern swamps and is also called the "wood eternal" because of its resistance to decay.'
   ],
   [
     -2.2323789596557617,
@@ -221,7 +221,7 @@ export default [
     0.7766306400299072,
     'Crataegus dilatata',
     'Broadleaf Hawthorn',
-    'Some members of the Crataegus genus are challenging to classify and identify because of the tendency to hybridize \ufffd\ufffd\ufffd over 1200 entities of Crataegus have been identified.  C. dilatata has been viewed as a variety of C. coccinioides but it is classified as a separate species based on differences in its fruit and flower structure.'
+    'Some members of the Crataegus genus are challenging to classify and identify because of the tendency to hybridize " over 1200 entities of Crataegus have been identified.  C. dilatata has been viewed as a variety of C. coccinioides but it is classified as a separate species based on differences in its fruit and flower structure.'
   ],
   [
     6.689487457275391,
@@ -347,7 +347,7 @@ export default [
     -1.2500275373458862,
     'Buxus sempervirens',
     'Common Box',
-    'Also called Boxwood or Turkish Boxwood, this densely branched evergreen shrub may grow broader than it is tall.  It is widely used in hedges, topiary work and formal gardens for its fullness and resiliency.  Native to the Mediterranean regions of Europe, Africa and Asia, its Latin species name, \ufffd\ufffd\ufffdsempervirens,\ufffd\ufffd\ufffd means always green.'
+    'Also called Boxwood or Turkish Boxwood, this densely branched evergreen shrub may grow broader than it is tall.  It is widely used in hedges, topiary work and formal gardens for its fullness and resiliency.  Native to the Mediterranean regions of Europe, Africa and Asia, its Latin species name, "sempervirens," means always green.'
   ],
   [
     6.081190586090088,
@@ -382,7 +382,7 @@ export default [
     0.4832251965999603,
     'Diospyros virginiana',
     'Common Persimmon',
-    'Also called the American Persimmon, this native to the United States has been cultivated for its edible fruit and valuable wood since prehistoric times. Trees can reach heights of 30 m and produce delicious, large orange fruits that ripen in late autumn. Persimmon fruits are high in vitamin C and are used in a variety of desserts. The Latin name Diospyros means \ufffd\ufffd\ufffdApple of the Gods.\ufffd\ufffd\ufffd'
+    'Also called the American Persimmon, this native to the United States has been cultivated for its edible fruit and valuable wood since prehistoric times. Trees can reach heights of 30 m and produce delicious, large orange fruits that ripen in late autumn. Persimmon fruits are high in vitamin C and are used in a variety of desserts. The Latin name Diospyros means "Apple of the Gods."'
   ],
   [
     -3.084712028503418,
@@ -410,7 +410,7 @@ export default [
     -0.2963017523288727,
     'Crataegus punctata',
     'Dotted Hawthorn',
-    'Some members of the Crataegus genus are challenging to classify and identify because of the tendency to hybridize \ufffd\ufffd\ufffd over 1200 entities of Crataegus have been identified.  This tree, for example, is named punctata for the dots on the skin of the fruits, but this feature is found on all species of Crataegus; identification of punctata relies more on the branchlets, leaves and flower clusters.'
+    'Some members of the Crataegus genus are challenging to classify and identify because of the tendency to hybridize " over 1200 entities of Crataegus have been identified.  This tree, for example, is named punctata for the dots on the skin of the fruits, but this feature is found on all species of Crataegus; identification of punctata relies more on the branchlets, leaves and flower clusters.'
   ],
   [
     -9.236806869506836,
@@ -466,7 +466,7 @@ export default [
     2.8927786350250244,
     'Juniperus virginiana',
     'Eastern Redcedar',
-    'This evergreen tree, native to eastern North America, is a dense, slow-growing tree with reddish-brown bark that peels off the trunk in thin strips. Though not a true cedar, the aromatic wood of this juniper is distasteful to moths and therefore used to make \ufffd\ufffd\ufffdcedar closets\ufffd\ufffd\ufffd and \ufffd\ufffd\ufffdcedar chests\ufffd\ufffd\ufffd for storing clothes.  It is also known as Pencil-Cedar, Red-Cedar, Cedar Tree, Juniper or Savin.'
+    'This evergreen tree, native to eastern North America, is a dense, slow-growing tree with reddish-brown bark that peels off the trunk in thin strips. Though not a true cedar, the aromatic wood of this juniper is distasteful to moths and therefore used to make "cedar closets" and "cedar chests" for storing clothes.  It is also known as Pencil-Cedar, Red-Cedar, Cedar Tree, Juniper or Savin.'
   ],
   [
     -6.9872212409973145,
@@ -515,7 +515,7 @@ export default [
     -2.8374760150909424,
     'Alnus glutinosa',
     'European Alder',
-    'Also called Black Alder, this tree is tall and narrow, often with multiple trunks that develop shallow vertical cracks as the tree ages.  A sticky resin coating the leaves, twigs and buds provides the species name, \ufffd\ufffd\ufffdglutinosa.\ufffd\ufffd\ufffd  Its cone-like catkins slowly release seeds through winter, making them a valuable food source for wildlife.'
+    'Also called Black Alder, this tree is tall and narrow, often with multiple trunks that develop shallow vertical cracks as the tree ages.  A sticky resin coating the leaves, twigs and buds provides the species name, "glutinosa."  Its cone-like catkins slowly release seeds through winter, making them a valuable food source for wildlife.'
   ],
   [
     9.867884635925293,
@@ -599,7 +599,7 @@ export default [
     4.863277912139893,
     'Abies fraseri',
     'Fraser Fir',
-    'Noted for its small flattened needles and small pinecones that point upward, this southern Appalachian Mountains native has a fragmented range limited to the peaks of the seven highest mountains in that area.  Made popular and widely cultivated for its classic \ufffd\ufffd\ufffdChristmas tree\ufffd\ufffd\ufffd shape, this species shares many characteristics with its more northern relative, Abies balsamea, Balsam Fir.'
+    'Noted for its small flattened needles and small pinecones that point upward, this southern Appalachian Mountains native has a fragmented range limited to the peaks of the seven highest mountains in that area.  Made popular and widely cultivated for its classic "Christmas tree" shape, this species shares many characteristics with its more northern relative, Abies balsamea, Balsam Fir.'
   ],
   [
     -2.913323163986206,
@@ -613,7 +613,7 @@ export default [
     -0.0827210545539856,
     'Ginkgo biloba',
     'Ginkgo',
-    'Native to China, this species was introduced to the northeastern North America where it is planted as an ornamental tree in urban environments. The trees produce very characteristic and unmistakable fan-shaped leaves. This species is one of the best-known examples of a \ufffd\ufffd\ufffdliving fossil\ufffd\ufffd\ufffd and many additional species of Ginkgos not alive today are present in the fossil record.  It is also known as the Maidenhair Tree.'
+    'Native to China, this species was introduced to the northeastern North America where it is planted as an ornamental tree in urban environments. The trees produce very characteristic and unmistakable fan-shaped leaves. This species is one of the best-known examples of a "living fossil" and many additional species of Ginkgos not alive today are present in the fossil record.  It is also known as the Maidenhair Tree.'
   ],
   [
     -7.702113628387451,
@@ -760,7 +760,7 @@ export default [
     0.047101352363824844,
     'Malus floribunda',
     'Japanese Flowering Crabapple',
-    'This species is native to Asia, but has been introduced into the United States for its beautiful floral display. These deciduous trees grow 4-7 m tall, producing copious amounts of white to pale pink flowers in the spring. The species name floribunda means \ufffd\ufffd\ufffdabundant flowers\ufffd\ufffd\ufffd in Latin.'
+    'This species is native to Asia, but has been introduced into the United States for its beautiful floral display. These deciduous trees grow 4-7 m tall, producing copious amounts of white to pale pink flowers in the spring. The species name floribunda means "abundant flowers" in Latin.'
   ],
   [
     -8.177973747253418,
@@ -802,7 +802,7 @@ export default [
     -2.709364652633667,
     'Gymnocladus dioicus',
     'Kentucky Coffeetree',
-    'Native to mid- to eastern North America, these trees produce their leaves late in the spring and shed them early in the fall; the tree may therefore look dead for up to six months of the year. Its genus name, Gymnocladus, means \ufffd\ufffd\ufffdnaked branch\ufffd\ufffd\ufffd and refers to this bare appearance.  It is also known as Chicot, Nickers-Tree, American Mahogany, Chico du Canada and Nettle-Tree.'
+    'Native to mid- to eastern North America, these trees produce their leaves late in the spring and shed them early in the fall; the tree may therefore look dead for up to six months of the year. Its genus name, Gymnocladus, means "naked branch" and refers to this bare appearance.  It is also known as Chicot, Nickers-Tree, American Mahogany, Chico du Canada and Nettle-Tree.'
   ],
   [
     -2.787606716156006,
@@ -879,7 +879,7 @@ export default [
     7.075865268707275,
     'Pinus taeda',
     'Loblolly Pine',
-    'Native to the southeastern United States, this is the largest of the southern pines. The trees can grow up to 50 m in height and produce 12-22 cm long needles in fascicles, or bundles, of three. The word loblolly means \ufffd\ufffd\ufffdlow, wet place\ufffd\ufffd\ufffd or \ufffd\ufffd\ufffdmud puddle\ufffd\ufffd\ufffd and refers to habitats where the trees commonly grow.'
+    'Native to the southeastern United States, this is the largest of the southern pines. The trees can grow up to 50 m in height and produce 12-22 cm long needles in fascicles, or bundles, of three. The word loblolly means "low, wet place" or "mud puddle" and refers to habitats where the trees commonly grow.'
   ],
   [
     6.463614463806152,
@@ -977,7 +977,7 @@ export default [
     5.104473114013672,
     'Maclura pomifera',
     'Osage Orange',
-    "Also called Horse-Apple or Bois d'Arc, this species has been widely planted and naturalized throughout the United States as part of Franklin Delano Roosevelt\ufffd\ufffd\ufffds \ufffd\ufffd\ufffdGreat Plains Shelterbelt\ufffd\ufffd\ufffd project. It has naturalized in parts of Canada. This 8-15 m tall tree produces distinctive bumpy, spherical fruits, 7-15 cm in diameter. These fruits smell faintly of oranges, but cause nausea if ingested."
+    'Also called Horse-Apple or Bois d\'Arc, this species has been widely planted and naturalized throughout the United States as part of Franklin Delano Roosevelt"s "Great Plains Shelterbelt" project. It has naturalized in parts of Canada. This 8-15 m tall tree produces distinctive bumpy, spherical fruits, 7-15 cm in diameter. These fruits smell faintly of oranges, but cause nausea if ingested.'
   ],
   [
     9.68377685546875,
@@ -1033,7 +1033,7 @@ export default [
     -1.731737732887268,
     'Quercus palustris',
     'Pin Oak',
-    'This oak, also called Spanish Oak, is native to swampy areas in eastern North America. Its propensity for growing in wet habitats is reflected in the Latin name of the species, palustris, meaning \ufffd\ufffd\ufffdof swamps.\ufffd\ufffd\ufffd This medium-sized deciduous tree produces bitter, unpalatable acorns.'
+    'This oak, also called Spanish Oak, is native to swampy areas in eastern North America. Its propensity for growing in wet habitats is reflected in the Latin name of the species, palustris, meaning "of swamps." This medium-sized deciduous tree produces bitter, unpalatable acorns.'
   ],
   [
     -7.723433017730713,
@@ -1180,7 +1180,7 @@ export default [
     1.9869798421859741,
     'Quercus imbricaria',
     'Shingle Oak',
-    'Native to North America, this medium-sized tree grows up to 20 m in height. This species is distinguished from other oaks by its laurel-shaped leaves. The Latin name of the species, imbricaria, means \ufffd\ufffd\ufffdoverlapping\ufffd\ufffd\ufffd and refers to the use of this wood for making shingles.'
+    'Native to North America, this medium-sized tree grows up to 20 m in height. This species is distinguished from other oaks by its laurel-shaped leaves. The Latin name of the species, imbricaria, means "overlapping" and refers to the use of this wood for making shingles.'
   ],
   [
     10.811737060546875,
@@ -1201,7 +1201,7 @@ export default [
     0.8330203294754028,
     'Ulmus pumila',
     'Siberian Elm',
-    'Also known as the Asiatic Elm, Chinese Elm or Dwarf Elm, this small, short-lived tree is native to Asia. This species was planted in \ufffd\ufffd\ufffdshelterbelts\ufffd\ufffd\ufffd across the Great Plains of the United States during the early 1900\ufffd\ufffd\ufffds to prevent dust storms; and is now found across Canada. Adult trees grow to 10-20 m in height and have rough gray or brown, furrowed bark. Individuals of this species do not live long, usually to less than 60 years of age.'
+    'Also known as the Asiatic Elm, Chinese Elm or Dwarf Elm, this small, short-lived tree is native to Asia. This species was planted in "shelterbelts" across the Great Plains of the United States during the early 1900"s to prevent dust storms; and is now found across Canada. Adult trees grow to 10-20 m in height and have rough gray or brown, furrowed bark. Individuals of this species do not live long, usually to less than 60 years of age.'
   ],
   [
     5.036823272705078,
@@ -1236,7 +1236,7 @@ export default [
     0.027463672682642937,
     'Oxydendrum arboreum',
     'Sourwood',
-    'This deciduous tree is native to eastern North America. The trees grow 10-20 m tall and have spirally-arranged leaves with serrated margins. These leaves can be chewed to promote salivation when the mouth is dry. The genus name Oxydendrum means \ufffd\ufffd\ufffdsour tree\ufffd\ufffd\ufffd and this, along with the common name, refers to the acidic taste of the foliage.'
+    'This deciduous tree is native to eastern North America. The trees grow 10-20 m tall and have spirally-arranged leaves with serrated margins. These leaves can be chewed to promote salivation when the mouth is dry. The genus name Oxydendrum means "sour tree" and this, along with the common name, refers to the acidic taste of the foliage.'
   ],
   [
     2.4096078872680664,
@@ -1320,7 +1320,7 @@ export default [
     -4.3854594230651855,
     'Magnolia virginiana',
     'Sweetbay Magnolia',
-    'Native to the southeastern United States, this was the first magnolia to be scientifically described and serves as the type species of the genus Magnolia. Trees can be either deciduous or evergreen, depending on climate, and grow to 30 m in height. Also called \ufffd\ufffd\ufffdBeavertree\ufffd\ufffd\ufffd by early colonialists in North America, the roots of this magnolia were used as bait for trapping beavers.'
+    'Native to the southeastern United States, this was the first magnolia to be scientifically described and serves as the type species of the genus Magnolia. Trees can be either deciduous or evergreen, depending on climate, and grow to 30 m in height. Also called "Beavertree" by early colonialists in North America, the roots of this magnolia were used as bait for trapping beavers.'
   ],
   [
     6.309584617614746,
@@ -1348,7 +1348,7 @@ export default [
     5.8667778968811035,
     'Pinus pungens',
     'Table-Mountain Pine',
-    'This pine is native to the Appalachian Mountains in the United States. This small tree grows 6-12 m in height and commonly grows as single, scattered individuals on rocky slopes. Pinus pungens is the \ufffd\ufffd\ufffdLonesome Pine\ufffd\ufffd\ufffd in the 1908 novel The Trail of the Lonesome Pine by John Fox.'
+    'This pine is native to the Appalachian Mountains in the United States. This small tree grows 6-12 m in height and commonly grows as single, scattered individuals on rocky slopes. Pinus pungens is the "Lonesome Pine" in the 1908 novel The Trail of the Lonesome Pine by John Fox.'
   ],
   [
     -2.854961395263672,
@@ -1390,7 +1390,7 @@ export default [
     -1.9101922512054443,
     'Magnolia tripetala',
     'Umbrella Tree',
-    'This medium-sized tree is native to the southeastern United States and grows up to 15 m tall. For a magnolia, this species is not especially ornamental. Its large creamy-white, but malodorous flowers also detract from this species\ufffd\ufffd\ufffd appeal as a landscape tree.'
+    'This medium-sized tree is native to the southeastern United States and grows up to 15 m tall. For a magnolia, this species is not especially ornamental. Its large creamy-white, but malodorous flowers also detract from this species" appeal as a landscape tree.'
   ],
   [
     -0.22032831609249115,
@@ -1418,7 +1418,7 @@ export default [
     0.2589304447174072,
     'Crataegus pruinosa',
     'Waxyfruit Hawthorn',
-    'Also called the Frosted Hawthorn, this small deciduous tree is native to the eastern United States and southern Canada. This plant produces small, dull red or green fruits covered with a whitish, waxy coat. The Latin species name pruinosa means \ufffd\ufffd\ufffdwith a frost-like bloom\ufffd\ufffd\ufffd and refers to this waxy coating on the fruit.'
+    'Also called the Frosted Hawthorn, this small deciduous tree is native to the eastern United States and southern Canada. This plant produces small, dull red or green fruits covered with a whitish, waxy coat. The Latin species name pruinosa means "with a frost-like bloom" and refers to this waxy coating on the fruit.'
   ],
   [
     0.6854164004325867,
@@ -1474,7 +1474,7 @@ export default [
     4.653558731079102,
     'Salix alba',
     'White Willow',
-    'This fast growing tree, native to southern and central Europe to western Siberia and central Asia, can grow to about 100 feet. Its silky, \ufffd\ufffd\ufffdhairy\ufffd\ufffd\ufffd leaves give rise to the White Willow name.  It prefers moist and wetland environments and will die back in long dry periods.'
+    'This fast growing tree, native to southern and central Europe to western Siberia and central Asia, can grow to about 100 feet. Its silky, "hairy" leaves give rise to the White Willow name.  It prefers moist and wetland environments and will die back in long dry periods.'
   ],
   [
     2.5851552486419678,
@@ -1530,7 +1530,7 @@ export default [
     0.9932408928871155,
     'Prunus yedoensis',
     'Yoshino Cherry',
-    'Native to Japan, this species was introduced into North America as a gift of the Emperor in the early 1900\ufffd\ufffd\ufffds because of its beautiful pink floral display. This small deciduous tree grows 5-12 m tall, producing clusters of fragrant pale pink flowers prior to leaf emergence. The Yoshino Cherry is responsible for the massive display of pink blooms that highlight the National Cherry Blossom Festival every spring in Washington, D.C.'
+    'Native to Japan, this species was introduced into North America as a gift of the Emperor in the early 1900"s because of its beautiful pink floral display. This small deciduous tree grows 5-12 m tall, producing clusters of fragrant pale pink flowers prior to leaf emergence. The Yoshino Cherry is responsible for the massive display of pink blooms that highlight the National Cherry Blossom Festival every spring in Washington, D.C.'
   ],
   [
     2.179032802581787,
