@@ -169,7 +169,11 @@ function renderMap() {
     .attr('x', d => xScale(d[X]) - leafSize / 2)
     .attr('y', d => yScale(d[Y]) - leafSize / 2)
     .attr('width', leafSize)
-    .attr('height', leafSize);
+    .attr('height', leafSize)
+    .attr('class', 'hidden')
+    .on('load', function() {
+      d3.select(this).attr('class', '');
+    });
 }
 
 window.addEventListener('load', onLoad);
