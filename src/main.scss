@@ -28,6 +28,7 @@ header {
     margin-top: 0;
     font-weight: 500;
     margin-left: -0.5em;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -48,6 +49,7 @@ header {
     text-align: left;
     line-height: 1.5em;
     margin-bottom: 0;
+    font-size: 0.94em;
   }
   .close {
     border: none;
@@ -168,6 +170,7 @@ $search-icon-left: 5px;
   .popname {
     margin-bottom: 2px;
     font-weight: 500;
+    margin-top: 0.5em;
   }
   .sciname {
     font-size: 1.2em;

@@ -118,8 +118,8 @@ function initMap() {
   svg.call(tooltip);
 
   // Initial zoom
-  svg.call(zoom.translateBy, w / 2, h / 2);
-
+  svg.call(zoom.scaleTo, 0.7);
+  svg.call(zoom.translateBy, w, h);
   // Scales
   xScale = d3
     .scaleLinear() // For the X axis
@@ -137,8 +137,8 @@ function renderMap() {
   h = window.innerHeight;
   svg.attr('width', w).attr('height', h);
 
-  xScale.range([0, 800]);
-  yScale.range([0, 800]);
+  xScale.range([0, 500]);
+  yScale.range([0, 500]);
 
   // Leaves
   let leaf = map
