@@ -9,8 +9,9 @@ import data from './data';
 
 let svg, map, tooltip;
 let xScale, yScale;
-const pad = 50,
-  leafSize = 44;
+let w = window.innerWidth;
+let h = window.innerHeight;
+const leafSize = 44;
 
 const X = 0,
   Y = 1,
@@ -18,46 +19,91 @@ const X = 0,
   POPNAME = 3,
   DESC = 4;
 
-// Event listeners
+let detailsHidden = true;
+let currData = [0, 0, 0, 0];
+let filterOn = false;
+let currFilter;
+
 let onLoad = function() {
   initMap();
   window.addEventListener('resize', renderMap);
   document
     .getElementById('close-details')
     .addEventListener('click', hideDetails);
-};
 
-function hideDetails() {
-  document.getElementById('details').classList.add('hidden');
-}
+  let searchInput = document.getElementById('search-input');
+  let searchContainer = document.getElementsByClassName('search-input')[0];
+
+  searchInput.addEventListener('input', filterLeaves);
+  searchInput.addEventListener('focus', e =>
+    searchContainer.classList.add('active')
+  );
+  searchInput.addEventListener('blur', e => {
+    if (e.target.value.length == 0) searchContainer.classList.remove('active');
+  });
+};
 
 let leafImageSrc = sciname =>
   'assets/leaves/' + sciname.replace(' ', '_') + '.png';
 
+function partialMatch(data) {
+  if (currFilter.test(data[SCINAME]) || currFilter.test(data[POPNAME])) {
+    return true;
+  }
+  return false;
+}
+
+function filterLeaves(e) {
+  const text = e.target.value;
+  if (text.length > 1) {
+    filterOn = true;
+    currFilter = new RegExp(text, 'i');
+  } else filterOn = false;
+
+  map.selectAll('.leaf').attr('class', d => {
+    if (filterOn) return partialMatch(d) ? 'leaf selected' : 'leaf fade';
+    else return 'leaf';
+  });
+}
+
+function hideDetails() {
+  document.getElementById('details').classList.add('hidden');
+  detailsHidden = true;
+}
+
 function showDetails(data) {
+  if (!detailsHidden && data[SCINAME] != currData[SCINAME]) {
+    document.getElementById('details').classList.add('hidden');
+    setTimeout(() => revealDetails(data), 250);
+  } else revealDetails(data);
+  currData = data;
+}
+
+function handleZoom() {
+  tooltip.attr('class', 'd3-tip').hide();
+  map.attr('transform', d3.event.transform);
+}
+
+function revealDetails(data) {
   let detEl = document.getElementById('details');
-  detEl.classList.remove('hidden');
+
   detEl.getElementsByClassName('popname')[0].innerHTML = data[POPNAME];
   detEl.getElementsByClassName('sciname')[0].innerHTML = data[SCINAME];
   detEl.getElementsByClassName('description')[0].innerHTML = data[DESC];
   detEl.getElementsByClassName('detail-leaf')[0].src = leafImageSrc(
     data[SCINAME]
   );
+  detEl.classList.remove('hidden');
+  detailsHidden = false;
 }
 
 function initMap() {
   svg = d3.select('#map').append('svg');
-  map = svg
-    .call(
-      d3
-        .zoom()
-        .scaleExtent([0.25, 3])
-        .on('zoom', () => {
-          tooltip.attr('class', 'd3-tip').hide();
-          map.attr('transform', d3.event.transform);
-        })
-    )
-    .append('g');
+  let zoom = d3
+    .zoom()
+    .scaleExtent([0.25, 3])
+    .on('zoom', handleZoom);
+  map = svg.call(zoom).append('g');
 
   tooltip = d3Tip()
     .attr('class', 'd3-tip')
@@ -70,6 +116,9 @@ function initMap() {
     .offset([-15, 0]);
 
   svg.call(tooltip);
+
+  // Initial zoom
+  svg.call(zoom.translateBy, w / 2, h / 2);
 
   // Scales
   xScale = d3
@@ -84,12 +133,12 @@ function initMap() {
 }
 
 function renderMap() {
-  const w = window.innerWidth;
-  const h = window.innerHeight;
+  w = window.innerWidth;
+  h = window.innerHeight;
   svg.attr('width', w).attr('height', h);
 
-  xScale.range([pad, w - pad]);
-  yScale.range([h - pad, pad]);
+  xScale.range([0, 800]);
+  yScale.range([0, 800]);
 
   // Leaves
   let leaf = map
