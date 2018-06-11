@@ -21,14 +21,14 @@ header {
 
 .sidebar {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 18px;
+  left: 18px;
 
   h1 {
     margin-top: 0;
     font-weight: 500;
     margin-left: -0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
   }
 }
 
@@ -43,9 +43,10 @@ header {
   background-color: rgba(#fff, 0.95);
   z-index: 10;
   box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 25px;
   width: 350px;
   p {
+    margin-top: 0.8em;
     text-align: left;
     line-height: 1.5em;
     margin-bottom: 0;
@@ -156,8 +157,8 @@ $search-icon-left: 5px;
 
 .details {
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 18px;
+  bottom: 18px;
   transition: all 250ms ease;
   transform: scale(1) translateX(0);
 
