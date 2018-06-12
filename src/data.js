@@ -560,8 +560,8 @@ export default [
     'Also known as European Euonymus or Spindle Tree, this native to Europe and western Asia is often used for hedges and screens.  Its flowers are not showy and many parts of this tree are toxic.  Birds spread the seeds and it can easily naturalize.'
   ],
   [
-    -8.140376091003418,
-    0.7186667323112488,
+    -9.60376091003418,
+    -0.2486667323112488,
     'Sorbus aucuparia',
     'European Mountain Ash',
     'Also called Rowan, Rowan-berry, or Quick Beam, this native to Europe, Siberia and western Asia, can grow up to 60 feet in height.  Its red-orange fruits are a source of food for birds and its wood is used for furniture. In parts of Europe, a Rowan is planted outside the house to keep evil spirits away.  It does not tolerate heat'
@@ -875,8 +875,8 @@ export default [
     'This oak is native to the southeastern United States and is an icon of the Old South. Adult trees usually grow to 15 m tall and have dense, spreading crowns that can span nearly 50 m across. This species, called the Live Oak because of its (nearly) evergreen foliage, is a valuable shade tree that also provides nesting sites for many animals.'
   ],
   [
-    3.748119354248047,
-    2.276676654815674,
+    3.788119354248047,
+    0.076676654815674,
     'Pinus taeda',
     'Loblolly Pine',
     'Native to the southeastern United States, this is the largest of the southern pines. The trees can grow up to 50 m in height and produce 12-22 cm long needles in fascicles, or bundles, of three. The word loblolly means "low, wet place" or "mud puddle" and refers to habitats where the trees commonly grow.'
