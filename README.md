@@ -5,11 +5,10 @@ Leaf species visualization
 Try filtering:
 
 - Pine
+- Willow
 - Birch
 - Ash
 - Spruce
-- Willow
-
 - Oak (large variance)
 - Elm
 - Maple

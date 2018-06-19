@@ -43,6 +43,8 @@ let onLoad = function() {
   });
 };
 
+window.addEventListener('load', onLoad);
+
 let leafImageSrc = sciname =>
   'assets/leaves/' + sciname.replace(' ', '_') + '.png';
 
@@ -119,7 +121,9 @@ function initMap() {
 
   // Initial zoom
   svg.call(zoom.scaleTo, 0.7);
+
   svg.call(zoom.translateBy, w, h);
+
   // Scales
   xScale = d3
     .scaleLinear() // For the X axis
@@ -175,5 +179,3 @@ function renderMap() {
       d3.select(this).attr('class', '');
     });
 }
-
-window.addEventListener('load', onLoad);
