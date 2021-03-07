@@ -3,27 +3,48 @@
   <head>
     <title>Leaf Map</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no"
+    />
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VK3CVCBELX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VK3CVCBELX");
+    </script>
   </head>
   <body>
     <div class="sidebar card">
-        <h1>
-            <img src="assets/logo.png" class="logo" />
-            Leaf Map
-        </h1>
-        <div class="search-input">
-            <input type="search" id="search-input" placeholder="Type to filter by name..." />
-        </div>
+      <h1>
+        <img src="assets/logo.png" class="logo" />
+        Leaf Map
+      </h1>
+      <div class="search-input">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Type to filter by name..."
+        />
+      </div>
     </div>
     <div class="details card hidden" id="details">
-        <button class="close" id="close-details">close</button>
-        <img class="detail-leaf" />
-        <h2 class="popname"></h2>
-        <span class="sciname"></span>
-        <p class="description"></p>
+      <button class="close" id="close-details">close</button>
+      <img class="detail-leaf" />
+      <h2 class="popname"></h2>
+      <span class="sciname"></span>
+      <p class="description"></p>
     </div>
     <div id="map"></div>
     <script type="text/javascript" src="bundle.js"></script>
